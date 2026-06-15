@@ -1,17 +1,31 @@
-ARE/gen/com/chinalwb/are/BuildConfig.java
-ARE/gen/com/chinalwb/are/R.java
-ARE/bin/res/crunch/drawable-hdpi/image.png
-ARE/bin/res/crunch/drawable-hdpi/ic_launcher.png
-ARE/bin/*
-ARE/local.properties
-*.keystore
-*/**/.DS_Store
-ARE/.gradle
-ARE/.idea
-ARE/build
-ARE/app/build
-ARE/app/src/main/.DS_Store
-*.swp
-ARE/app/release/ARE_20180405_0.0.4.apk
-ARE/app/release/output.json
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# IntelliJ
 *.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Android Profiling
+*.hprof
+
+.acside/
+
+gradle-daemon-jvm.properties
