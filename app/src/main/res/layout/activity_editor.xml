@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:are="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:liftOnScroll="false">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.muawiya.are.AREditor
+        android:id="@+id/areditor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:padding="8dp"
+        android:gravity="top|start"
+        android:hint="@string/are_editor_hint"
+        android:inputType="textMultiLine|textNoSuggestions|textCapSentences"
+        android:importantForAccessibility="yes"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:toolbarBackgroundColor="?attr/colorSurface"
+        are:hideToolbar="false"
+        are:toolbarAlignment="BOTTOM" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
