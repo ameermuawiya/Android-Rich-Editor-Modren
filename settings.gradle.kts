@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ARE-MODREN"
 include(":app")
+include(":are")
